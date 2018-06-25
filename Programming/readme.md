@@ -18,6 +18,14 @@ Bonus: Write this in Ruby AND JavaScript
 
 Given a string, determine if all of the characters in the string are unique or not. This function, allCharsUnique should return a Boolean value.
 
+1. I will need to break apart a string into single characters, and check to see if there are any characters that are in the string more than once. I will need to be able to check characters that are not alpha, and could also maybe be numbers since it is not specified.
+
+2. The soulution I would like to devise involves breaking the string into an array, and setting a variable to false. This false variable will be my boolean checker if my function finds a dupe. I will then nest a loop inside of a loop that will scan through the array and search for duplicate characters. If the loop finds a dupe, it will set the boolean variable to true, and return true.
+
+
+
+
+
 ***
 
 
